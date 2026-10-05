@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp18
 {
-    public  class Factor
+    public  class Factor21
     {
         public string FactorID { get; set; }
         public string Customer { get; set; }
