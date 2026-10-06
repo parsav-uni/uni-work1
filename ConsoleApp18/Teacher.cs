@@ -11,4 +11,4 @@ namespace Teachers
         public string ClassSubject { get; set; }
         // Methods: GiveExam, GiveScore
     }
-}
+} 
