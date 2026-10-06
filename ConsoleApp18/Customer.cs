@@ -1,6 +1,4 @@
-namespace CustomerClass
-{
-    public  class Customer
+public  class Customer
     {
         public int CustomerID { get; set; }
         public string FirstName { get; set; }
