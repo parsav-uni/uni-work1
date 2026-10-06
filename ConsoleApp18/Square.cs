@@ -1,7 +1,10 @@
-public class Square
+namespace ShapeSquare
 {
-    public double Angle { get; set; }
-    public int Sides { get; set; }
-    public double X { get; set; }
-    // Methods: CalculateX, CalculateAngle
+    public class Square
+    {
+        public double Angle { get; set; }
+        public int Sides { get; set; }
+        public double X { get; set; }
+        // Methods: CalculateX, CalculateAngle
+    }
 }

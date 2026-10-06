@@ -1,4 +1,6 @@
-public  class Customer
+namespace Customers
+{
+    public class Customer
     {
         public int CustomerID { get; set; }
         public string FirstName { get; set; }
@@ -9,3 +11,4 @@ public  class Customer
         public int PhoneNumber { get; set; }
         // Methods: PlaceOrder, CancelOrder
     }
+}
