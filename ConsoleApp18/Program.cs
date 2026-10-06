@@ -15,6 +15,7 @@ namespace AllClasses
         public string EmailAddress { get; set; }
         public int NationalID { get; set; }
         public int PhoneNumber { get; set; }
+        // Methods: PlaceOrder, CancelOrder
     }
     public class Student
     {
@@ -25,6 +26,7 @@ namespace AllClasses
         public int NationalID { get; set; }
         public int Age { get; set; }
         public string Major { get; set; }
+        // Methods: CalculateTotalScore, CalculateExamScore
     }
     public class Teacher
     {
@@ -35,6 +37,7 @@ namespace AllClasses
         public int NationalID { get; set; }
         public int Age { get; set; }
         public string ClassSubject { get; set; }
+        // Methods: GiveExam, GiveScore
     }
     public class Employee
     {
@@ -44,6 +47,7 @@ namespace AllClasses
         public int NationalID { get; set; }
         public string Job { get; set; }
         public int EmployedDate { get; set; }
+        // Methods: CalculateWorkHours, CalculateSalary
     }
     public class Rectangle
     {
@@ -51,12 +55,14 @@ namespace AllClasses
         public double Y { get; set; }
         public double Area { get; set; }
         public double Perimeter { get; set; }
+        // Methods: CalculateArea, CalculatePerimeter
     }
     public class Square
     {
         public double Angle { get; set; }
         public int Sides { get; set; }
         public double X { get; set; }
+        // Methods: CalculateX, CalculateAngle
     }
     public class Dog
     {
@@ -65,6 +71,7 @@ namespace AllClasses
         public string OwnerFirstName { get; set; }
         public string OwnerLastName { get; set; }
         public int Age { get; set; }
+        // Methods: IsHealthy, IsSleeping
     }
     public class Cat
     {
@@ -73,5 +80,6 @@ namespace AllClasses
         public string OwnerFirstName { get; set; }
         public string OwnerLastName { get; set; }
         public int Age { get; set; }
+        // Methods: IsHealthy, IsSleeping
     }
 }
