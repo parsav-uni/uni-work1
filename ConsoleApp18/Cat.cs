@@ -1,1 +1,9 @@
-
+public class Cat
+{
+    public string Name { get; set; }
+    public string BreedType { get; set; }
+    public string OwnerFirstName { get; set; }
+    public string OwnerLastName { get; set; }
+    public int Age { get; set; }
+    // Methods: IsHealthy, IsSleeping
+}
