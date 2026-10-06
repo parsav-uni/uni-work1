@@ -8,7 +8,7 @@ namespace AllClasses
 {
     public  class Customer
     {
-        public string CustomerID { get; set; }
+        public int CustomerID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Address { get; set; }
@@ -19,7 +19,7 @@ namespace AllClasses
     }
     public class Student
     {
-        public string StudentID { get; set; }
+        public int StudentID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string FatherName { get; set; }
