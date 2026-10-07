@@ -71,7 +71,7 @@ Square1.Angle = 360;
 Square1.Sides = 4;
 
 Console.WriteLine($"This Square's X is {Square1.X}");
-Console.WriteLine($"This Rectangle's Total Angle is {Square1.Angle}");
+Console.WriteLine($"This Square's Total Angle is {Square1.Angle}");
 
 using ConsoleApp18.Dogs;
 Dog Dog1 = new Dog();
