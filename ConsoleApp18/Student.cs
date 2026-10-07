@@ -9,6 +9,6 @@ namespace Students
         public int NationalID { get; set; }
         public int Age { get; set; }
         public string Major { get; set; }
-        // Methods: CalculateTotalScore, CalculateExamScore
+
     }
 }
